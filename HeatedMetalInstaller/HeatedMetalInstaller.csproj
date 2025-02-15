@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<ApplicationManifest>app.manifest</ApplicationManifest>
+		<PublishSingleFile>true</PublishSingleFile>
+		<SelfContained>true</SelfContained>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+		<DebugType>embedded</DebugType>
+		<Company>DataCluster0</Company>
+		<Product>Heated Metal Updater</Product>
+		<Version>1.5.0</Version>
+		<Platforms>AnyCPU;x64</Platforms>
+		<SignAssembly>False</SignAssembly>
+		<ApplicationIcon>HMUpdater.ico</ApplicationIcon>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="HMUpdater.ico" />
+	</ItemGroup>
+
+</Project>
